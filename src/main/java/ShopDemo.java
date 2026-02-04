@@ -1,5 +1,7 @@
 import model.Role;
 import model.User;
+import repository.ProductRepository;
+import repository.ProductRepositoryMap;
 import repository.UserRepository;
 import repository.UserRepositoryMap;
 
@@ -42,5 +44,10 @@ public class ShopDemo {
         // Проверка содержимого хранилища
         userRepository.getAll().forEach(System.out::println);
 
+        System.out.println("===============================================");
+
+        // товары
+        ProductRepository productRepository = new ProductRepositoryMap();
+        productRepository.getAll().forEach(System.out::println);
     }
 }

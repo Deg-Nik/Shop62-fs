@@ -9,6 +9,7 @@ package model;
 public class Category {
     private Long id;
     private String title;
+//    private CategoryType categoryType;
 
     public Category() {
     }
@@ -32,4 +33,12 @@ public class Category {
     public void setTitle(String title) {
         this.title = title;
     }
+
+//    public CategoryType getCategoryType() {
+//        return categoryType;
+//    }
+//
+//    public void setCategoryType(CategoryType categoryType) {
+//        this.categoryType = categoryType;
+//    }
 }

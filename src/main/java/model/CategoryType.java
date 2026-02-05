@@ -7,6 +7,6 @@ package model;
  *
  **/
 public enum CategoryType {
-    ELEKTRONICS,
+    ELECTRONICS,
     OTHERS
 }

@@ -1,13 +1,19 @@
 package model;
 
 /**
- * @author : Nikolai Degtiarev
- * created : 01.02.26
- *
- *
- **/
+ * Перечисление, представляющее статус товара.
+ */
 public enum ProductStatus {
+    /**
+     * Доступен к покупке.
+     */
     ACTIVE,
+    /**
+     * Нет в наличии.
+     */
     OUT_OF_STOCK,
-    DEPRECATED,
+    /**
+     * Снят с производства.
+     */
+    DEPRECATED
 }

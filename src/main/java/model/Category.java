@@ -13,6 +13,8 @@ public class Category {
      */
     private String title;
 
+    private CategoryType categoryType;
+
     /**
      * Конструктор по умолчанию.
      */
@@ -64,6 +66,14 @@ public class Category {
      */
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public CategoryType getCategoryType() {
+        return categoryType;
+    }
+
+    public void setCategoryType(CategoryType categoryType) {
+        this.categoryType = categoryType;
     }
 }
 

@@ -1,6 +1,6 @@
 package com.example.shop62.service;
 
 
-public class SMSService {
-
+public interface SMSService {
+    void sendSMS(String message, String recipient);
 }

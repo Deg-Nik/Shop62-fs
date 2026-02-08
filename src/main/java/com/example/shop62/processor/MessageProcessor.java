@@ -5,10 +5,10 @@ import org.springframework.stereotype.Component;
 import com.example.shop62.service.MessageService;
 
 @Component
-public class MesageProcessor {
+public class MessageProcessor {
     private final MessageService messageService;
 
-    public MesageProcessor(MessageService messageService) {
+    public MessageProcessor(MessageService messageService) {
         this.messageService = messageService;
         System.out.println("processor.MesageProcessor created with: " + messageService.getClass().getSimpleName());
     }
